@@ -6,6 +6,8 @@ import Footer from "@/components/Footer";
 import Notification from "@/components/Notification";
 import React from "react";
 
+import ReduxProvider from "@/store/ReduxProvider";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -23,7 +25,7 @@ export default function RootLayout({
       <body className={inter.className}>
         {/* <Notification /> */}
         <Navbar />
-        {children}
+        <ReduxProvider>{children}</ReduxProvider>
         <Footer />
       </body>
     </html>

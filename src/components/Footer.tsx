@@ -4,21 +4,12 @@ import { AiFillFacebook, AiFillInstagram } from "react-icons/ai";
 
 function Footer() {
   return (
-    <div className="h-12 md:h-24 p-4 lg:px-20 xl:px-40 text-red-500 flex items-center justify-start font-bold">
+    <div className="h-12 md:h-24 p-4 lg:px-20 xl:px-40 text-red-500 flex items-center justify-start font-bold border-t-2 border-t-red-500">
       <Link href="/" className="font-bold text-xl w-[20%]">
-        Nakhon-Dessert
+        DONG BETTER
       </Link>
-      <div className="flex flex-row items-center gap-2">
-        <span className="flex flex-row items-center">
-          <AiFillInstagram />
-          IG: sss
-        </span>
-        <span className="flex flex-row items-center">
-          <AiFillFacebook />
-          Facebook: sss
-        </span>
-      </div>
-      <p className="ml-auto">© ALL RIGHTS RESERVED.</p>
+
+      <p className="ml-auto">©DONG BETTER ALL RIGHTS RESERVED.</p>
     </div>
   );
 }

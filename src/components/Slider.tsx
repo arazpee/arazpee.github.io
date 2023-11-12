@@ -6,12 +6,12 @@ const data = [
   {
     id: 1,
     title: "อร่อย มากกกกก",
-    image: "/slide1.png",
+    image: "/slide1.jpg",
   },
   {
     id: 2,
     title: "อร่อย มากกกกก",
-    image: "/slide2.png",
+    image: "/slide2.jpg",
   },
   {
     id: 3,
@@ -32,10 +32,15 @@ function Slider() {
     return () => clearInterval(interval);
   }, []);
   return (
-    <div className="flex flex-col h-[calc(100vh-3rem)] w-screen bg-gray-100 items-center">
+    <div className="flex flex-col h-[calc(100vh-3rem)] w-screen items-center">
       <div className="h-[20%] flex items-center justify-center flex-col gap-8 text-red-500 font-bold">
         <h1 className="text-2xl text-center uppercase p-4 md:text-4xl xl:text-5xl ">
-          ร้านขนมหวานเล็กๆ
+          <Image
+            src={"/dongbetter.gif"}
+            width="500"
+            height="160"
+            alt="dongbetter"
+          />
         </h1>
       </div>
 

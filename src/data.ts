@@ -12,10 +12,10 @@ type Products = Product[];
 export const featuredProducts: Products = [
   {
     id: 1,
-    title: "เกี้ยน้ำตาลทรายแดง [ดั่งเดิม]",
-    desc: "ขนมหวานคลายร้อนดั่งเดิมจากเขตพระนคร ว่ากันว่าหากินยาก อยากให้ลองชิมดู อร่อยม๊ากกกก แป้งเหนียมนุ่มสดชื้น แน่นไปด้วยเครื่อง",
-    img: "/temporary/des1.jpg",
-    price: 35,
+    title: "กุ้งดอง เกาหลี",
+    desc: "น้ำซอสหมักสูตรพิเศษ สไตล์เกาหลี",
+    img: "/1.png",
+    price: 45,
     options: [
       {
         title: "Small",
@@ -33,157 +33,10 @@ export const featuredProducts: Products = [
   },
   {
     id: 2,
-    title: "เกี้ยน้ำลำใย [หวานเจี๊ยบบ]",
-    desc: "ด้วยน้ำลำใย เมื่อทานคู่กับแป้งแบนเหนียวหนึบสูตรพิเศษจากทางร้านคู่กับเนื้อผลไม้ลำใย ความเข้ากันมันทำให้เฟรชชี่พร้อมลุยงาน",
-    img: "/temporary/des1.jpg",
-    price: 35,
-    options: [
-      {
-        title: "Small",
-        additionalPrice: 0,
-      },
-      {
-        title: "Medium",
-        additionalPrice: 4,
-      },
-      {
-        title: "Large",
-        additionalPrice: 6,
-      },
-    ],
-  },
-  {
-    id: 3,
-    title: "เกี้ยสูตรพิเศษ ชาอ่อน [แบบทันสมัย]",
-    desc: "ความชากับน้ำมะลิที่เหมือนเป็นโซลเมทกันและกัน เมื่อทานคู่กับน้ำแข็งใสกับแป้งแล้ว อร่อยแบบเหมือนนั่งดูพระอาทิตย์ตกดิน",
-    img: "/temporary/des1.jpg",
-    price: 40,
-    options: [
-      {
-        title: "Small",
-        additionalPrice: 0,
-      },
-      {
-        title: "Medium",
-        additionalPrice: 4,
-      },
-      {
-        title: "Large",
-        additionalPrice: 6,
-      },
-    ],
-  },
-  {
-    id: 4,
-    title: "Spicy Arrabbiata",
-    desc: "Ignite your taste buds with this fiery pasta creation, combining penne in a spicy tomato sauce infused with garlic, red chili flakes, and fresh basil for the ultimate comfort food experience.",
-    img: "/temporary/des1.jpg",
-    price: 26.9,
-    options: [
-      {
-        title: "Small",
-        additionalPrice: 0,
-      },
-      {
-        title: "Medium",
-        additionalPrice: 4,
-      },
-      {
-        title: "Large",
-        additionalPrice: 6,
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "Jalapeño Fiesta",
-    desc: "Ignite your taste buds with a fiery kick! This burger features a succulent beef patty, fiery jalapeños, pepper jack cheese, and a zesty chipotle mayo sauce , and all the classic fixings on a toasted bun.",
-    img: "/temporary/p5.png",
-    price: 29.9,
-    options: [
-      {
-        title: "Small",
-        additionalPrice: 0,
-      },
-      {
-        title: "Medium",
-        additionalPrice: 4,
-      },
-      {
-        title: "Large",
-        additionalPrice: 6,
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Margherita Magic",
-    desc: "A timeless favorite with a twist, showcasing a thin crust topped with sweet tomatoes, fresh basil, creamy mozzarella, and a drizzle of extra virgin olive oil, fresh arugula, and a drizzle of balsamic glaze.",
-    img: "/temporary/p6.png",
-    price: 24.9,
-    options: [
-      {
-        title: "Small",
-        additionalPrice: 0,
-      },
-      {
-        title: "Medium",
-        additionalPrice: 4,
-      },
-      {
-        title: "Large",
-        additionalPrice: 6,
-      },
-    ],
-  },
-  {
-    id: 7,
-    title: "Garlic Parmesan Linguine",
-    desc: "A garlic lover's delight, featuring linguine smothered in a creamy Parmesan sauce, infused with garlic and garnished with chopped parsley, bell peppers, and cherry tomatoes.",
-    img: "/temporary/p7.png",
-    price: 28.9,
-    options: [
-      {
-        title: "Small",
-        additionalPrice: 0,
-      },
-      {
-        title: "Medium",
-        additionalPrice: 4,
-      },
-      {
-        title: "Large",
-        additionalPrice: 6,
-      },
-    ],
-  },
-  {
-    id: 8,
-    title: "Mediterranean Delight",
-    desc: "Embark on a culinary journey with this Mediterranean-inspired creation, featuring zesty feta cheese, Kalamata olives, sun-dried tomatoes, and a sprinkle of oregano.",
-    img: "/temporary/p8.png",
-    price: 32.9,
-    options: [
-      {
-        title: "Small",
-        additionalPrice: 0,
-      },
-      {
-        title: "Medium",
-        additionalPrice: 4,
-      },
-      {
-        title: "Large",
-        additionalPrice: 6,
-      },
-    ],
-  },
-  {
-    id: 9,
-    title: "Hawaiian Teriyaki",
-    desc: "Experience a taste of the tropics with a juicy beef patty glazed in tangy teriyaki sauce, topped with grilled pineapple, crispy bacon, and fresh lettuce, and all the classic fixings on a toasted bun.",
-    img: "/temporary/p9.png",
-    price: 29.9,
+    title: "กุ้งดองเผ็ด เกาหลี",
+    desc: "น้ำซอสหมักสูตรพิเศษแบบเผ็ด สไตล์เกาหลี",
+    img: "/2.png",
+    price: 49,
     options: [
       {
         title: "Small",

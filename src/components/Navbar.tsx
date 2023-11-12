@@ -10,14 +10,10 @@ function Navbar() {
     <div className="h-12 text-red-500 p-4 flex justify-between items-center border-b-2 border-b-red-500 uppercase">
       <div className="flex gap-4">
         <div className="text-xl font-bold">
-          <Link href="/">Nakhon-Dessert</Link>
+          <Link href="/">DONG BETTER</Link>
         </div>
         {/* for other devices */}
-        <div className="hidden md:flex gap-4">
-          <Link href="/">homepage</Link>
-          <Link href="/">homepage</Link>
-          <Link href="/">homepage</Link>
-        </div>
+        <div className="hidden md:flex gap-4">{/* for use future */}</div>
       </div>
 
       {/* for Mobile */}
@@ -26,16 +22,20 @@ function Navbar() {
       </div>
 
       {/* for other devices right menu*/}
-      <div className="hidden md:flex gap-4 justify-end items-center">
-        <div className="flex flex-row items-center gap-2">
-          <span className="flex flex-row items-center">
-            <AiFillInstagram />
-            IG: sss
-          </span>
-          <span className="flex flex-row items-center">
-            <AiFillFacebook />
-            Facebook: sss
-          </span>
+      <div className="hidden md:flex gap-8 justify-end items-center">
+        <div className="flex flex-row items-center gap-4">
+          <Link href={"https://www.instagram.com/dong_better/"}>
+            <span className="flex flex-row items-center gap-1">
+              <AiFillInstagram />
+              IG: /dong_better
+            </span>
+          </Link>
+          <Link href={"https://www.facebook.com/dongbetterfood"}>
+            <span className="flex flex-row items-center gap-1">
+              <AiFillFacebook />
+              Facebook: Dong Better
+            </span>
+          </Link>
         </div>
         <Link
           href="/"
@@ -44,12 +44,6 @@ function Navbar() {
           <AiFillPhone />
           <span>080-389-4809</span>
         </Link>
-        {user ? (
-          <Link href="/order">order</Link>
-        ) : (
-          <Link href="/login">login</Link>
-        )}
-        <CartMenu />
       </div>
     </div>
   );

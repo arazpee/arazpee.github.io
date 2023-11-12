@@ -1,6 +1,7 @@
 "use client";
 import { featuredProducts } from "@/data";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 function Feature() {
@@ -13,7 +14,7 @@ function Feature() {
               key={item.id}
               className="w-[100%] md:w-[50%] lg:w-[33%] h-[80vh] flex flex-col items-center hover:bg-gray-200 transition-all duration-300"
             >
-              <div className="relative flex-1 w-full drop-shadow-lg">
+              <div className="relative flex-1 w-[70%] drop-shadow-lg">
                 {item.img && (
                   <Image
                     src={item.img}
@@ -41,10 +42,25 @@ function Feature() {
                 </button>
                 <dialog id="my_modal_2" className="modal">
                   <div className="modal-box">
-                    <h3 className="font-bold text-lg">Hello!</h3>
-                    <p className="py-4">
-                      Press ESC key or click outside to close
-                    </p>
+                    <div className="flex flex-col gap-4 justify-center items-center">
+                      <h3 className="font-bold text-lg">สั่งซื้อ</h3>
+                      <div className="flex gap-4">
+                        <Link href="https://lin.ee/xwHEnDO">
+                          <h1>ผ่าน Line Man</h1>
+                        </Link>
+                      </div>
+                      <Image
+                        src={"/Line Man QR Code.png"}
+                        width="240"
+                        height="240"
+                        alt="line man"
+                      ></Image>
+
+                      <h1>
+                        ตอนนี้ยังมีแค่ผ่านไลน์แมนนะคะ
+                        ในอนาคตจะมีส่งในต่างจังหวัดเร็วๆนี้
+                      </h1>
+                    </div>
                   </div>
                   <form method="dialog" className="modal-backdrop">
                     <button>close</button>
