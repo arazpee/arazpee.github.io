@@ -33,10 +33,94 @@ export const featuredProducts: Products = [
   },
   {
     id: 2,
-    title: "กุ้งดองเผ็ด เกาหลี",
-    desc: "น้ำซอสหมักสูตรพิเศษแบบเผ็ด สไตล์เกาหลี",
+    title: "กุ้งดอง เผ็ดเกาหลี",
+    desc: "น้ำซอสหมักสูตรพิเศษแบบหวานๆ เผ็ดๆ สไตล์เกาหลี อยากให้ลองม๊ากก",
     img: "/2.png",
     price: 49,
+    options: [
+      {
+        title: "Small",
+        additionalPrice: 0,
+      },
+      {
+        title: "Medium",
+        additionalPrice: 4,
+      },
+      {
+        title: "Large",
+        additionalPrice: 6,
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "หัวไชเท้าดอง",
+    desc: "ต้องลองฮะ อร่อยจัด กินเล่น ดูNetflixเพลินๆ",
+    img: "/5.png",
+    price: 20,
+    options: [
+      {
+        title: "Small",
+        additionalPrice: 0,
+      },
+      {
+        title: "Medium",
+        additionalPrice: 4,
+      },
+      {
+        title: "Large",
+        additionalPrice: 6,
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "สาหร่าย",
+    desc: "เอาไว้กินแกล้มกุ้ง",
+    img: "/6.png",
+    price: 25,
+    options: [
+      {
+        title: "Small",
+        additionalPrice: 0,
+      },
+      {
+        title: "Medium",
+        additionalPrice: 4,
+      },
+      {
+        title: "Large",
+        additionalPrice: 6,
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "กุ้งชุดสุดคุ้ม เกาหลี",
+    desc: "น้ำซอสหมักสูตรพิเศษแบบ สไตล์เกาหลี",
+    img: "/8.png",
+    price: 85,
+    options: [
+      {
+        title: "Small",
+        additionalPrice: 0,
+      },
+      {
+        title: "Medium",
+        additionalPrice: 4,
+      },
+      {
+        title: "Large",
+        additionalPrice: 6,
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "กุ้งชุดสุดคุ้ม เกาหลี",
+    desc: "น้ำซอสหมักสูตรพิเศษแบบเผ็ด สไตล์เกาหลี",
+    img: "/7.png",
+    price: 89,
     options: [
       {
         title: "Small",

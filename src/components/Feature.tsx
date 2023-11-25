@@ -46,7 +46,7 @@ function Feature() {
                       <h3 className="font-bold text-lg">สั่งซื้อ</h3>
                       <div className="flex gap-4">
                         <Link href="https://lin.ee/xwHEnDO">
-                          <h1>ผ่าน Line Man</h1>
+                          <h1>ผ่าน Line Man คลิกทีนี้</h1>
                         </Link>
                       </div>
                       <Image
