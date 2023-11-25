@@ -6,7 +6,7 @@ import React from "react";
 
 function Feature() {
   return (
-    <div className="w-screen text-red-500 mt-6">
+    <div className="w-screen text-red-500 mt-2">
       <div className="flex flex-wrap">
         {featuredProducts.map((item) => {
           return (
@@ -14,7 +14,7 @@ function Feature() {
               key={item.id}
               className="w-[100%] md:w-[50%] lg:w-[33%] h-[80vh] flex flex-col items-center hover:bg-gray-200 transition-all duration-300"
             >
-              <div className="relative flex-1 w-[70%] drop-shadow-lg">
+              <div className="relative flex-1 w-[100%] drop-shadow-lg">
                 {item.img && (
                   <Image
                     src={item.img}
@@ -24,12 +24,12 @@ function Feature() {
                   />
                 )}
               </div>
-              <div className="flex-1 flex flex-col gap-4 items-center justify-center p-5">
+              <div className="flex flex-col gap-2 items-center justify-center p-2">
                 <h1 className="font-bold uppercase  text-xl">{item.title}</h1>
                 <p>{item.desc}</p>
                 <span className="text-xl font-bold">{`${item.price} บาท`}</span>
                 <button
-                  className="btn drop-shadow-md rounded-md p-2 text-white bg-red-500"
+                  className="btn drop-shadow-md rounded-md m-1 text-white bg-red-500"
                   onClick={() => {
                     if (document) {
                       (
@@ -42,9 +42,9 @@ function Feature() {
                 </button>
                 <dialog id="my_modal_2" className="modal">
                   <div className="modal-box">
-                    <div className="flex flex-col gap-4 justify-center items-center">
+                    <div className="flex flex-col gap-2 justify-center items-center">
                       <h3 className="font-bold text-lg">สั่งซื้อ</h3>
-                      <div className="flex gap-4">
+                      <div className="flex gap-2">
                         <Link href="https://lin.ee/xwHEnDO">
                           <h1>ผ่าน Line Man คลิกทีนี้</h1>
                         </Link>
